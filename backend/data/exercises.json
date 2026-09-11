@@ -1,0 +1,222 @@
+[
+  {
+    "id": "squat",
+    "name": "Bodyweight Squat",
+    "description": "Stand with feet shoulder-width apart, lower hips until thighs are parallel to floor, then stand back up.",
+    "muscles_targeted": "Quadriceps, glutes, hamstrings",
+    "difficulty": "beginner",
+    "equipment": "none",
+    "category": "lower_body",
+    "default_sets": 3,
+    "default_reps": "12-15"
+  },
+  {
+    "id": "pushup",
+    "name": "Push-Up",
+    "description": "Start in plank position, lower chest to floor keeping body straight, then push back up.",
+    "muscles_targeted": "Chest, shoulders, triceps, core",
+    "difficulty": "beginner",
+    "equipment": "none",
+    "category": "upper_body",
+    "default_sets": 3,
+    "default_reps": "8-12"
+  },
+  {
+    "id": "pushup_knee",
+    "name": "Knee Push-Up",
+    "description": "Same as a push-up but with knees on the floor — great for beginners building upper body strength.",
+    "muscles_targeted": "Chest, shoulders, triceps",
+    "difficulty": "beginner",
+    "equipment": "none",
+    "category": "upper_body",
+    "default_sets": 3,
+    "default_reps": "10-12"
+  },
+  {
+    "id": "lunge",
+    "name": "Forward Lunge",
+    "description": "Step one foot forward, lower back knee toward floor, return to start. Alternate legs.",
+    "muscles_targeted": "Quadriceps, glutes, hamstrings",
+    "difficulty": "beginner",
+    "equipment": "none",
+    "category": "lower_body",
+    "default_sets": 3,
+    "default_reps": "10 each leg"
+  },
+  {
+    "id": "plank",
+    "name": "Plank Hold",
+    "description": "Hold a push-up position on forearms, keeping the body in a straight line from head to heels.",
+    "muscles_targeted": "Core, shoulders, back",
+    "difficulty": "beginner",
+    "equipment": "none",
+    "category": "core",
+    "default_sets": 3,
+    "default_reps": "20-30 seconds"
+  },
+  {
+    "id": "glute_bridge",
+    "name": "Glute Bridge",
+    "description": "Lie on back with knees bent, push hips toward ceiling squeezing glutes at the top.",
+    "muscles_targeted": "Glutes, hamstrings, lower back",
+    "difficulty": "beginner",
+    "equipment": "none",
+    "category": "lower_body",
+    "default_sets": 3,
+    "default_reps": "15"
+  },
+  {
+    "id": "mountain_climber",
+    "name": "Mountain Climber",
+    "description": "Start in plank position, alternate driving knees to chest in a running motion.",
+    "muscles_targeted": "Core, hip flexors, cardio",
+    "difficulty": "intermediate",
+    "equipment": "none",
+    "category": "cardio",
+    "default_sets": 3,
+    "default_reps": "20 seconds"
+  },
+  {
+    "id": "burpee",
+    "name": "Burpee",
+    "description": "Squat down, jump feet back to plank, do a push-up, jump feet forward, jump up with arms overhead.",
+    "muscles_targeted": "Full body, cardio",
+    "difficulty": "intermediate",
+    "equipment": "none",
+    "category": "cardio",
+    "default_sets": 3,
+    "default_reps": "8-10"
+  },
+  {
+    "id": "jump_squat",
+    "name": "Jump Squat",
+    "description": "Perform a squat then explosively jump, land softly and immediately lower into next squat.",
+    "muscles_targeted": "Quadriceps, glutes, calves, cardio",
+    "difficulty": "intermediate",
+    "equipment": "none",
+    "category": "lower_body",
+    "default_sets": 3,
+    "default_reps": "10"
+  },
+  {
+    "id": "tricep_dip",
+    "name": "Chair Tricep Dip",
+    "description": "Place hands on a sturdy chair behind you, lower body by bending elbows, then push back up.",
+    "muscles_targeted": "Triceps, shoulders",
+    "difficulty": "beginner",
+    "equipment": "chair",
+    "category": "upper_body",
+    "default_sets": 3,
+    "default_reps": "10-12"
+  },
+  {
+    "id": "calf_raise",
+    "name": "Standing Calf Raise",
+    "description": "Stand with feet hip-width apart, rise onto toes, hold 1 second, lower slowly.",
+    "muscles_targeted": "Calves",
+    "difficulty": "beginner",
+    "equipment": "none",
+    "category": "lower_body",
+    "default_sets": 3,
+    "default_reps": "15-20"
+  },
+  {
+    "id": "superman",
+    "name": "Superman Hold",
+    "description": "Lie face down, simultaneously lift arms, chest, and legs off the floor, hold, lower.",
+    "muscles_targeted": "Lower back, glutes, upper back",
+    "difficulty": "beginner",
+    "equipment": "none",
+    "category": "back",
+    "default_sets": 3,
+    "default_reps": "10"
+  },
+  {
+    "id": "high_knees",
+    "name": "High Knees",
+    "description": "Run in place, driving knees as high as possible. Pump arms for extra intensity.",
+    "muscles_targeted": "Hip flexors, core, cardio",
+    "difficulty": "beginner",
+    "equipment": "none",
+    "category": "cardio",
+    "default_sets": 3,
+    "default_reps": "30 seconds"
+  },
+  {
+    "id": "side_plank",
+    "name": "Side Plank",
+    "description": "Lie on side, prop up on one forearm, lift hips to form a straight line. Hold, then switch sides.",
+    "muscles_targeted": "Obliques, core, shoulders",
+    "difficulty": "intermediate",
+    "equipment": "none",
+    "category": "core",
+    "default_sets": 2,
+    "default_reps": "20 seconds each side"
+  },
+  {
+    "id": "wall_sit",
+    "name": "Wall Sit",
+    "description": "Slide back down a wall until thighs are parallel to floor, hold position.",
+    "muscles_targeted": "Quadriceps, glutes",
+    "difficulty": "beginner",
+    "equipment": "wall",
+    "category": "lower_body",
+    "default_sets": 3,
+    "default_reps": "30 seconds"
+  },
+  {
+    "id": "bicycle_crunch",
+    "name": "Bicycle Crunch",
+    "description": "Lie on back, hands behind head, alternate bringing elbow to opposite knee in a cycling motion.",
+    "muscles_targeted": "Abs, obliques",
+    "difficulty": "beginner",
+    "equipment": "none",
+    "category": "core",
+    "default_sets": 3,
+    "default_reps": "15 each side"
+  },
+  {
+    "id": "inchworm",
+    "name": "Inchworm",
+    "description": "Stand and hinge at hips, walk hands forward to plank, pause, walk feet to hands, stand.",
+    "muscles_targeted": "Hamstrings, core, shoulders (warm-up)",
+    "difficulty": "beginner",
+    "equipment": "none",
+    "category": "warm_up",
+    "default_sets": 2,
+    "default_reps": "5"
+  },
+  {
+    "id": "arm_circles",
+    "name": "Arm Circles",
+    "description": "Extend arms to sides, make small to large circles forward, then reverse.",
+    "muscles_targeted": "Shoulders, rotator cuff (warm-up)",
+    "difficulty": "beginner",
+    "equipment": "none",
+    "category": "warm_up",
+    "default_sets": 2,
+    "default_reps": "15 each direction"
+  },
+  {
+    "id": "leg_raise",
+    "name": "Lying Leg Raise",
+    "description": "Lie on back, keep legs straight, raise them to 90° and slowly lower without touching floor.",
+    "muscles_targeted": "Lower abs, hip flexors",
+    "difficulty": "intermediate",
+    "equipment": "none",
+    "category": "core",
+    "default_sets": 3,
+    "default_reps": "12"
+  },
+  {
+    "id": "jumping_jack",
+    "name": "Jumping Jack",
+    "description": "Jump feet apart while raising arms overhead, jump feet together while lowering arms.",
+    "muscles_targeted": "Full body, cardio (warm-up)",
+    "difficulty": "beginner",
+    "equipment": "none",
+    "category": "warm_up",
+    "default_sets": 2,
+    "default_reps": "30 seconds"
+  }
+]

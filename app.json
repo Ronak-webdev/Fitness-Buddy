@@ -1,0 +1,31 @@
+{
+  "name": "fitness-buddy",
+  "description": "Fitness Buddy — AICTE-2026 Problem Statement No. 13. Agentic AI personal fitness and wellness coach powered by IBM Granite (watsonx.ai) and IBM Cloud Lite.",
+  "problem_statement": "Problem Statement No. 13 — Fitness Buddy",
+  "hackathon": "AICTE-2026 IBM Bob Hackathon",
+  "team": "Ronak-webdev",
+  "repository": "https://github.com/Ronak-webdev/Fitness-Buddy.git",
+  "tech_stack": {
+    "llm": "IBM Granite (ibm/granite-4-h-small) via IBM watsonx.ai",
+    "backend": "Python 3.11, FastAPI",
+    "frontend": "React 18, Vite, Tailwind CSS",
+    "database": "IBM Db2 on Cloud Lite (in-memory fallback for local dev)",
+    "agents": "Custom multi-agent orchestration (no LangChain)"
+  },
+  "ibm_services": [
+    "IBM watsonx.ai Lite (Granite LLM inference)",
+    "IBM Db2 on Cloud Lite (persistent storage)",
+    "IBM Cloud Identity & Access Management (API key auth)"
+  ],
+  "entry_points": {
+    "backend": "cd backend && python main.py",
+    "frontend": "cd frontend && npm run dev",
+    "tests": "cd backend && python -m pytest -v"
+  },
+  "ports": {
+    "backend": 8000,
+    "frontend": 5173
+  },
+  "health_check": "http://localhost:8000/health",
+  "api_docs": "http://localhost:8000/docs"
+}
