@@ -153,9 +153,15 @@ Copy `.env.example` to `.env` and fill in your credentials:
 
 ---
 
-## Implementation Plan
+## Architecture & Agents
 
-See [`fitness-buddy-plan.md`](fitness-buddy-plan.md) for the full architecture, sub-task breakdown, and demo script.
+Fitness Buddy is built using **IBM Bob** and follows a multi-agent orchestrator pattern:
+- **OrchestratorAgent**: Intelligent classification and intent routing (`backend/agents/orchestrator.py`)
+- **WorkoutAgent**: Personalized no-equipment home workouts (`backend/agents/workout_agent.py`)
+- **NutritionAgent**: High-protein nutritious meal suggestions (`backend/agents/nutrition_agent.py`)
+- **MotivationAgent**: Daily habit-building and streak encouragement (`backend/agents/motivation_agent.py`)
+- **ProfileAgent**: User onboarding and goal management (`backend/agents/profile_agent.py`)
+- **MemoryAgent**: Session context and conversation history (`backend/agents/memory_agent.py`)
 
 ---
 
